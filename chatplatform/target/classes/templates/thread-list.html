@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>讨论列表 - 在线问答平台</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>在线问答平台</h1>
+        <p>分享知识，解决问题，共同成长</p>
+        <div>
+            <span th:if="${session.user}" style="color: white; margin-right: 15px;">
+                欢迎, <span th:text="${session.user}"></span>
+            </span>
+            <a th:if="${session.user}" th:href="@{/logout}">退出登录</a>
+            <a th:unless="${session.user}" th:href="@{/login}">用户登录</a>
+        </div>
+    </div>
+
+    <div class="action-buttons">
+        <a th:href="@{/threads/new}" class="btn btn-success">创建新讨论</a>
+    </div>
+
+    <div class="thread-list">
+        <div th:if="${#lists.isEmpty(threads)}" class="empty-state">
+            <p>还没有讨论话题，快来创建第一个吧！</p>
+        </div>
+
+        <div th:each="thread : ${threads}" class="thread-item">
+            <h3>
+                <a th:href="@{/threads/{id}(id=${thread.id})}" th:text="${thread.title}"></a>
+            </h3>
+            <div class="thread-meta">
+                作者: <span th:text="${thread.author}"></span> |
+                时间: <span th:text="${thread.createTime}"></span>
+            </div>
+            <div class="thread-content" th:text="${thread.content}"></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

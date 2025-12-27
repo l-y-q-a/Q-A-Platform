@@ -1,0 +1,12 @@
+com\example\chatplatform\dao\DataStore.class
+com\example\chatplatform\service\UserService.class
+com\example\chatplatform\controller\CaptchaController.class
+com\example\chatplatform\model\Thread.class
+com\example\chatplatform\controller\ThreadController.class
+com\example\chatplatform\ChatplatformApplication.class
+com\example\chatplatform\controller\LoginController.class
+com\example\chatplatform\service\ThreadService.class
+com\example\chatplatform\config\WebConfig.class
+com\example\chatplatform\model\Reply.class
+com\example\chatplatform\controller\ReplyController.class
+com\example\chatplatform\model\User.class

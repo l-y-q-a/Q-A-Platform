@@ -1,0 +1,12 @@
+C:\Users\31450\IdeaProjects\chatplatform\src\main\java\com\example\chatplatform\ChatplatformApplication.java
+C:\Users\31450\IdeaProjects\chatplatform\src\main\java\com\example\chatplatform\config\WebConfig.java
+C:\Users\31450\IdeaProjects\chatplatform\src\main\java\com\example\chatplatform\controller\CaptchaController.java
+C:\Users\31450\IdeaProjects\chatplatform\src\main\java\com\example\chatplatform\controller\LoginController.java
+C:\Users\31450\IdeaProjects\chatplatform\src\main\java\com\example\chatplatform\controller\ReplyController.java
+C:\Users\31450\IdeaProjects\chatplatform\src\main\java\com\example\chatplatform\controller\ThreadController.java
+C:\Users\31450\IdeaProjects\chatplatform\src\main\java\com\example\chatplatform\dao\DataStore.java
+C:\Users\31450\IdeaProjects\chatplatform\src\main\java\com\example\chatplatform\model\Reply.java
+C:\Users\31450\IdeaProjects\chatplatform\src\main\java\com\example\chatplatform\model\Thread.java
+C:\Users\31450\IdeaProjects\chatplatform\src\main\java\com\example\chatplatform\model\User.java
+C:\Users\31450\IdeaProjects\chatplatform\src\main\java\com\example\chatplatform\service\ThreadService.java
+C:\Users\31450\IdeaProjects\chatplatform\src\main\java\com\example\chatplatform\service\UserService.java
